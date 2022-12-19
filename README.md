@@ -12,6 +12,6 @@ comes with a pretty hefty performance cost:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 500px;" src="/assets/benchmark_new.png"></img>
 
-but in return you get a store that automatically sync over multiple clients:
+but in return you get a store that automatically syncs over multiple clients:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 500px;" src="/assets/pixelpainter.gif"></img>

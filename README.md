@@ -4,6 +4,13 @@ a synced store with [yjs](https://github.com/yjs/yjs), [valtio](https://github.c
 use just like a regular solid-store:
 
 ```
+  npm install yjs valtio valtio-yjs solid-valtio solid-valtio-yjs-store
+```
+
+```
+  import createValtioYjsStore from 'solid-valtio-yjs-store';
+  import * as Y from 'yjs';
+
   const ydoc = new Y.Doc();
   const [store, setStore] = createValtioYjsStore(ydoc, {toggle: true})
   setStore('toggle', (boolean) => !boolean)

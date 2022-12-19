@@ -4,10 +4,6 @@ a synced store with [yjs](https://github.com/yjs/yjs), [valtio](https://github.c
 use just like a regular solid-store:
 
 ```
-  npm install yjs valtio valtio-yjs solid-valtio solid-valtio-yjs-store
-```
-
-```
   import createValtioYjsStore from 'solid-valtio-yjs-store';
   import * as Y from 'yjs';
 

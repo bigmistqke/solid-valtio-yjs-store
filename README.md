@@ -8,6 +8,6 @@ use just like a regular solid-store:
   const [store, setStore] = createValtioYjsStore(ydoc, {toggle: true})
   setStore('toggle', (boolean) => !boolean)
 ```
-comes with a performance cost:
+comes with a pretty hefty performance cost:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 300px;" src="/assets/benchmark_new.png"></img>

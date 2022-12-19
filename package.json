@@ -1,7 +1,14 @@
 {
-  "name": "vite-template-solid",
+  "name": "solid-valtio-yjs-store",
   "version": "0.0.0",
   "description": "",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/main.js",
+  "module": "./dist/main.js",
+  "typings": "./dist/src/lib/createValtioYjsStore.d.ts",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -10,16 +17,20 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/rollup-plugin-peer-deps-external": "^2.2.1",
     "typescript": "^4.8.2",
     "vite": "^3.0.9",
-    "vite-plugin-solid": "^2.3.0"
+    "vite-plugin-solid": "^2.3.0",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript-paths": "^1.4.0",
+    "tslib": "^2.4.1",
+    "vite-plugin-dts": "^1.7.1"
   },
-  "dependencies": {
+  "peerDependencies": {
     "solid-js": "^1.5.1",
     "solid-valtio": "^0.1.8",
     "valtio": "^1.7.6",
-    "valtio-yjs": "^0.4.0",
-    "y-webrtc": "^10.2.3",
-    "y-websocket": "^1.4.5"
+    "valtio-yjs": "^0.4.0"
   }
 }

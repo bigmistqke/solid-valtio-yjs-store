@@ -10,4 +10,4 @@ use just like a regular solid-store:
 ```
 comes with a performance cost:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 300px;" src="/assets/benchmark.png"></img>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 300px;" src="/assets/benchmark_new.png"></img>

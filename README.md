@@ -1,6 +1,6 @@
 # solid-valtio-yjs-store
 
-a synced store with [yjs](https://github.com/yjs/yjs), [valtio](https://github.com/pmndrs/valtio), [solid-valtio](https://github.com/wobsoriano/solid-valtio), [valtio-yjs](https://github.com/dai-shi/valtio-yjs)</br>
+a synced store with [yjs](https://github.com/yjs/yjs), [valtio](https://github.com/pmndrs/valtio), [solid-valtio](https://github.com/wobsoriano/solid-valtio), [valtio-yjs](https://github.com/dai-shi/valtio-yjs) for [solid-js](https://github.com/solidjs/solid) </br>
 use just like a regular solid-store:
 
 ```

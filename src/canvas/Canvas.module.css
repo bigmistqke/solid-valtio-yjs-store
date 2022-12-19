@@ -1,0 +1,43 @@
+.App {
+  padding: 10px;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.pixel {
+  width: 100%;
+  height: 100%;
+  /* pointer-events: none; */
+}
+
+/* .pixel:hover {
+  background: var(--color) !important;
+} */
+
+.grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(var(--grid-amount), 1fr);
+}

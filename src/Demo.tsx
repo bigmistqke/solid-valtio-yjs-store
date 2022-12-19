@@ -1,40 +1,6 @@
-import { Component } from 'solid-js';
-import { WebrtcProvider } from 'y-webrtc';
-import * as Y from "yjs";
-import createValtioYjsStore from './lib/createValtioYjsStore';
+import { Component } from 'solid-js'
+import Canvas from './canvas/Canvas'
 
-const Demo: Component = () => {
-  const ydoc = new Y.Doc();
-  const provider = new WebrtcProvider("another one", ydoc)
+const App: Component = () => <Canvas size={50} />
 
-  const [store, setStore] = createValtioYjsStore(
-    ydoc,
-    {
-      test: "ok",
-      users: [
-        {
-          id: "ok",
-          content: "sure"
-        }
-      ]
-    }
-  )
-
-  setTimeout(() => {
-    setStore('users', ({id}) => id === "ok", "content", (value) => value.toString().split('').map(a => a + a).join(''))
-  }, 1000)
-
-  return (
-    <div >
-      {
-        JSON.stringify(store)
-      }
-      {
-        store.users[0].content
-      }
-    </div>
-  );
-};
-
-export default Demo;
-
+export default App

@@ -11,3 +11,7 @@ use just like a regular solid-store:
 comes with a pretty hefty performance cost:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 300px;" src="/assets/benchmark_new.png"></img>
+
+but in return you get a store that automatically sync over multiple clients:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 300px;" src="/assets/pixelpainter.gif"></img>
